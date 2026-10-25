@@ -1,0 +1,74 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EFEA"/>
+      <stop offset="100%" stop-color="#E2DCD5"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A6B53"/>
+      <stop offset="100%" stop-color="#34503B"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#2C2825" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle kitchen grid pattern -->
+  <g opacity="0.15" stroke="#4A6B53" stroke-width="1.5" stroke-dasharray="4 8">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+  </g>
+
+  <!-- Center Decorative Plate -->
+  <g filter="url(#shadow)">
+    <!-- Plate Outer Rim -->
+    <circle cx="400" cy="270" r="160" fill="#FFFFFF" stroke="#E2DCD5" stroke-width="4"/>
+    <!-- Plate Inner Rim -->
+    <circle cx="400" cy="270" r="130" fill="#FAF7F2" stroke="#4A6B53" stroke-width="2" stroke-opacity="0.25"/>
+    <!-- Deep Bowl -->
+    <circle cx="400" cy="270" r="95" fill="#F4EFEA"/>
+
+    <!-- Cloche / Chef Bell Icon -->
+    <g transform="translate(340, 200)" fill="none" stroke="url(#accentGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Cloche Dome -->
+      <path d="M10 90 Q60 10 110 90 Z" fill="#4A6B53" fill-opacity="0.1"/>
+      <line x1="5" y1="90" x2="115" y2="90"/>
+      <!-- Handle -->
+      <circle cx="60" cy="20" r="8" fill="#4A6B53"/>
+      <!-- Aromas / Steam -->
+      <path d="M45 -5 C40 -20 50 -30 45 -45" stroke="#D97A53" stroke-width="3.5" opacity="0.8"/>
+      <path d="M60 -2 C55 -18 65 -28 60 -42" stroke="#D97A53" stroke-width="3.5" opacity="0.9"/>
+      <path d="M75 -5 C70 -20 80 -30 75 -45" stroke="#D97A53" stroke-width="3.5" opacity="0.8"/>
+    </g>
+
+    <!-- Cutlery / Spices Accents -->
+    <!-- Fork left -->
+    <g transform="translate(265, 220)" stroke="#4A6B53" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+      <line x1="15" y1="0" x2="15" y2="100"/>
+      <line x1="5" y1="0" x2="5" y2="35"/>
+      <line x1="25" y1="0" x2="25" y2="35"/>
+      <path d="M5 35 Q15 50 25 35"/>
+    </g>
+
+    <!-- Spoon right -->
+    <g transform="translate(505, 220)" stroke="#4A6B53" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+      <ellipse cx="15" cy="25" rx="14" ry="22"/>
+      <line x1="15" y1="47" x2="15" y2="100"/>
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="475" text-anchor="middle" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="28" font-weight="700" fill="#2C2825" letter-spacing="-0.02em">
+    KitchenGen AI
+  </text>
+  <text x="400" y="510" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="500" fill="#6B635B">
+    Freshly Crafted Authentic Dish
+  </text>
+</svg>

@@ -1,0 +1,158 @@
+{
+  "indian-fridge.jpg": [
+    "tomatoes",
+    "onions",
+    "green chillies",
+    "coriander",
+    "lemons",
+    "ginger",
+    "paneer",
+    "curd",
+    "milk",
+    "ghee"
+  ],
+  "vegetable-fridge.jpg": [
+    "cabbage",
+    "cauliflower",
+    "carrots",
+    "capsicum",
+    "tomatoes",
+    "spinach",
+    "cucumbers",
+    "green beans",
+    "broccoli"
+  ],
+  "nearly-empty-fridge.jpg": [
+    "milk",
+    "eggs",
+    "tomato",
+    "onion",
+    "butter",
+    "cabbage",
+    "pickles"
+  ],
+  "full-fridge.jpg": [
+    "eggs",
+    "milk",
+    "capsicum",
+    "carrots",
+    "tomatoes",
+    "cucumbers",
+    "spinach",
+    "celery",
+    "strawberries",
+    "blueberries",
+    "yogurt",
+    "cheese",
+    "butter",
+    "pickles",
+    "orange juice"
+  ],
+  "indian-ingredients-fridge.jpg": [
+    "paneer",
+    "curd",
+    "green chillies",
+    "ginger",
+    "coriander",
+    "tomatoes",
+    "lemons",
+    "carrots",
+    "capsicum",
+    "onion"
+  ],
+  "breakfast-fridge.jpg": [
+    "eggs",
+    "bread",
+    "milk",
+    "butter",
+    "cheese",
+    "strawberries",
+    "orange",
+    "yogurt"
+  ],
+  "healthy-fridge.jpg": [
+    "spinach",
+    "broccoli",
+    "carrots",
+    "cucumber",
+    "greek yogurt",
+    "blueberries",
+    "kiwi",
+    "eggs",
+    "almond butter"
+  ],
+  "fruit-fridge.jpg": [
+    "apples",
+    "oranges",
+    "bananas",
+    "grapes",
+    "strawberries",
+    "blueberries",
+    "watermelon"
+  ],
+  "messy-fridge.jpg": [
+    "onion",
+    "milk",
+    "lemons",
+    "green chillies",
+    "carrots",
+    "cheddar cheese",
+    "pickles",
+    "butter",
+    "eggs",
+    "garlic"
+  ],
+  "organized-fridge.jpg": [
+    "tomatoes",
+    "cucumbers",
+    "capsicum",
+    "limes",
+    "eggs",
+    "milk",
+    "orange juice",
+    "lemons",
+    "butter",
+    "yogurt"
+  ],
+  "low-light-fridge.jpg": [
+    "milk",
+    "olives",
+    "cheese",
+    "tomato",
+    "eggs",
+    "orange juice"
+  ],
+  "obstructed-fridge.jpg": [
+    "milk",
+    "red capsicum",
+    "cucumbers",
+    "spinach",
+    "carrots",
+    "pickles",
+    "eggs"
+  ],
+  "containers-fridge.jpg": [
+    "paneer",
+    "green peas",
+    "coriander",
+    "tomatoes",
+    "lemons",
+    "yogurt"
+  ],
+  "small-fridge.jpg": [
+    "milk",
+    "eggs",
+    "tomato",
+    "onion",
+    "butter"
+  ],
+  "mixed-indian-fridge.jpg": [
+    "tomato",
+    "paneer",
+    "peas",
+    "coriander",
+    "lemon",
+    "ghee",
+    "curd"
+  ]
+}
